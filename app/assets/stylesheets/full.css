@@ -1,0 +1,79 @@
+body {
+	margin-top: 50px;/* 50px is the height of the navbar - change this if the navbarn height changes */
+    background-size: 1366px 768px
+     }
+
+.bg-image{opacity: 0.8;
+	background-image: url(/assets/homepage.jpg);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%; 
+	background-size: cover;
+}
+
+.full {
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login{
+	margin-top: 300px;
+	text-align: center;
+	position: relative;
+
+}
+
+#signin{
+	
+	font-size: 36px;
+	text-decoration: none;
+	border-radius: 12px;
+	padding: 20px 20px 20px 20px;
+	color: #000000;
+	background-color: #fca644;
+	margin-right: 25px;
+
+}
+
+#signup{
+	font-size: 36px;
+	text-decoration: none;
+	border-radius: 12px;
+	padding: 20px 20px 20px 20px;
+	color: #000000;
+	background-color: #fca644;
+	margin-right: 25px;
+}
+
+.register{
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-right: 80px;
+	color: black;
+	border-radius: 4px;
+	position: relative;
+	background-color: #fff;
+
+}
+.user_reg{padding: 20px;}
+
+.reg-img{
+	background-image: url(/assets/register.jpg);
+	width: 100%;
+	height: 100%;
+    position: fixed;
+    background-size: cover;
+    top: 0;
+    opacity: 0.8;
+}
+
+#reg-head{
+	background-color: black;
+	color:white;
+	text-align: center;
+	font-size: 40px;
+}
