@@ -2,12 +2,12 @@
 <h2 id="reg-head">SIGN UP</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
+  <div class="error"><%= devise_error_messages! %></div>
   <div class="register pull-right user_reg">
 
   <div class="form-horizontal" role="form">
 
-  <div class="form-group">
+  <div class="form-group required">
   <div class="col-md-4">
   <%= f.label :full_name %><br />
   </div>
@@ -15,7 +15,7 @@
   <%= f.text_field :full_name, :placeholder => "Please enter your Full Name" %>
   </div>
   </div>
-  <div class="form-group">
+  <div class="form-group required">
   <div class="col-md-4">
   <%= f.label :email %><br />
   </div>
@@ -23,7 +23,7 @@
   <%= f.email_field :email, :placeholder => "Please enter your Email" %>
   </div>
   </div>
-  <div class="form-group">
+  <div class="form-group required">
   <div class="col-md-4">
   <%= f.label :password %><br />
   </div>
@@ -71,7 +71,7 @@
   <%= f.text_field :country %>
   </div>
   </div>
-  <div class="form-group">
+  <div class="form-group required">
   <div class="col-md-4">
   <%= f.label :mobile %><br />
   </div>

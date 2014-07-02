@@ -77,3 +77,47 @@ body {
 	text-align: center;
 	font-size: 40px;
 }
+
+.form-group.required label:after{
+	content: "*";
+	color: red;
+	position: absolute;
+}
+
+.error{
+	font-size: 10px;
+	margin-bottom: 30px;
+}
+
+.sign-head{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 50px;
+	margin-right: 140px; 
+}
+
+.sign{
+	margin-top: -200px;
+	float:right;
+	margin-right: 300px;
+
+}
+
+.vertical-line{
+	 width: 1px;
+  background-color: silver;
+  height: 100%;
+  border: 1px ridge silver ;
+  border-radius: 2px;
+  margin-left: 580px;
+  margin-top: 130px;
+}
+
+.social{
+	float: left;
+	width: 20%;
+	margin-left: 150px;
+	margin-top: 150px;
+}
+
+

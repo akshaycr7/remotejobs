@@ -1,4 +1,8 @@
 Remotejobs::Application.routes.draw do
+  get "jobs/index"
+
+  get "jobs/show"
+
   root :to => "home#index"
 
   devise_for :users
